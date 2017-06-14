@@ -15,6 +15,8 @@
 		83390B371EF0F67E006C1BE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83390B351EF0F67E006C1BE8 /* LaunchScreen.storyboard */; };
 		83390B421EF0F67E006C1BE8 /* SceneKit_04Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83390B411EF0F67E006C1BE8 /* SceneKit_04Tests.m */; };
 		83390B4D1EF0F67E006C1BE8 /* SceneKit_04UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83390B4C1EF0F67E006C1BE8 /* SceneKit_04UITests.m */; };
+		83DA952E1EF1302E00589015 /* box2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83DA952C1EF1302E00589015 /* box2.jpg */; };
+		83DA95301EF1327B00589015 /* box1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83DA952F1EF1327B00589015 /* box1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		83390B481EF0F67E006C1BE8 /* SceneKit-04UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SceneKit-04UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83390B4C1EF0F67E006C1BE8 /* SceneKit_04UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneKit_04UITests.m; sourceTree = "<group>"; };
 		83390B4E1EF0F67E006C1BE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83DA952C1EF1302E00589015 /* box2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = box2.jpg; sourceTree = "<group>"; };
+		83DA952F1EF1327B00589015 /* box1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = box1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,8 @@
 		83390B271EF0F67E006C1BE8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				83DA952F1EF1327B00589015 /* box1.jpg */,
+				83DA952C1EF1302E00589015 /* box2.jpg */,
 				83390B281EF0F67E006C1BE8 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -207,7 +213,13 @@
 				TargetAttributes = {
 					83390B231EF0F67E006C1BE8 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = X585696T4B;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
 					};
 					83390B3C1EF0F67E006C1BE8 = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -247,6 +259,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				83390B371EF0F67E006C1BE8 /* LaunchScreen.storyboard in Resources */,
+				83DA95301EF1327B00589015 /* box1.jpg in Resources */,
+				83DA952E1EF1302E00589015 /* box2.jpg in Resources */,
 				83390B341EF0F67E006C1BE8 /* Assets.xcassets in Resources */,
 				83390B321EF0F67E006C1BE8 /* Main.storyboard in Resources */,
 			);
@@ -424,7 +438,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X585696T4B;
 				INFOPLIST_FILE = "SceneKit-04/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ShiWenChen.com.SceneKit-04";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,7 +451,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X585696T4B;
 				INFOPLIST_FILE = "SceneKit-04/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ShiWenChen.com.SceneKit-04";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -507,6 +525,7 @@
 				83390B531EF0F67E006C1BE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83390B541EF0F67E006C1BE8 /* Build configuration list for PBXNativeTarget "SceneKit-04Tests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +534,7 @@
 				83390B561EF0F67E006C1BE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83390B571EF0F67E006C1BE8 /* Build configuration list for PBXNativeTarget "SceneKit-04UITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +543,7 @@
 				83390B591EF0F67E006C1BE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
